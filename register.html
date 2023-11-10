@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>UTS Pemrograman Web | 1</title>
+        <link rel="stylesheet" href="./src/style/global.css" />
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <nav>
+                <h1 class="navTitle">Paradise</h1>
+                <ul>
+                    <!-- internal link -->
+                    <li><a href="/">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li class="login-container">
+                        <a class="btn" id="login" href="/login.html">Login</a
+                        >&nbsp;or&nbsp;
+                        <a class="btn" id="regist" href="/register.html"
+                            >Register</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="tagline">Register</h1>
+
+            <section class="card">
+                <div class="input-group">
+                    <label for="nama-lengkap">nama lengkap</label>
+                    <input type="text" name="nama-lengkap" id="nama-lengkap" />
+                </div>
+                <div class="input-group">
+                    <label for="username">username (NPM)</label>
+                    <input type="text" name="username" id="username" />
+                </div>
+                <div class="input-group">
+                    <label for="tanggal-lahir">tanggal lahir</label>
+                    <input
+                        type="date"
+                        name="tanggal-lahir"
+                        id="tanggal-lahir"
+                    />
+                </div>
+                <div class="input-group">
+                    <label for="email">e-mail</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div class="input-group">
+                    <label for="jurusan">jurusan</label>
+                    <select name="jurusan" id="jurusan">
+                        <option value="1">Teknik Informatika</option>
+                        <option value="2">Teknik Sipil</option>
+                        <option value="3">Teknik PWK</option>
+                        <option value="4">Teknik Mesin</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="no-hp">no. HP</label>
+                    <input type="text" name="no-hp" id="no-hp" />
+                </div>
+                <div class="input-group">
+                    <label for="deskripsi-diri">deskripsi diri</label>
+                    <textarea
+                        type="text"
+                        name="deskripsi-diri"
+                        id="deskripsi-diri"
+                        cols="5"
+                        rows="5"
+                    ></textarea>
+                </div>
+                <button class="btn">Register</button>
+            </section>
+        </main>
+
+        <footer>Made with ❤️ Elfrida</footer>
+    </body>
+</html>

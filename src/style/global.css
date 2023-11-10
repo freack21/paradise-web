@@ -299,3 +299,63 @@ td {
     /* grid-column: 5 / span 4; */
     /* grid-row: 6 / span 3; */
 }
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    min-width: 25%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+    width: 100%;
+}
+
+.input-group label {
+    font-size: 0.9em;
+    color: #444;
+    margin-bottom: 0.25rem;
+}
+
+/* pseudo-element 2 */
+.input-group label::first-letter {
+    text-transform: uppercase;
+}
+
+.input-group input {
+    border-radius: 20px;
+    border: 1px solid #bbb;
+    padding: 0.5rem 1rem;
+}
+
+.input-group select {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 0.5rem 0.25rem;
+}
+
+button.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    margin: 0.5rem;
+    font-size: 0.9em;
+}
+
+.input-group textarea {
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    padding: 0.5rem;
+}
