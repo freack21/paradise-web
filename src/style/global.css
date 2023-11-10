@@ -61,12 +61,34 @@ ul li a {
 }
 
 ul li a.active {
-    color: cornflowerblue;
+    color: dodgerblue;
 }
 
 /* dynamic pseudo-class selector 1 */
 ul li a:hover {
-    color: cornflowerblue;
+    color: dodgerblue;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.9rem;
+}
+
+a.btn:hover {
+    background-color: #555;
+    color: white;
 }
 
 main {
